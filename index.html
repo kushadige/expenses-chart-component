@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Expenses Chart Component</title>
+</head>
+<body>
+    <div class="chart">
+        <div class="header">
+            <div>
+                <h4 class="light">My balance</h4>
+                <p><span class="balance bold">$921.58</span></p>
+            </div>
+            <img class="logo" src="images/logo.svg" alt="logo" />
+        </div>
+        <div class="main">
+            <h1 class="bold">Spending - Last 7 days</h1>
+            <div class="days">
+                <div class="stick"></div>
+                <div class="stick"></div>
+                <div class="stick active"></div>
+                <div class="stick"></div>
+                <div class="stick"></div>
+                <div class="stick"></div>
+                <div class="stick"></div>
+            </div>
+            <div class="footer">
+                <div>
+                    <h4 class="light">Total this month</h4>
+                    <p><span class="total-amount bold">$478.33</span></p>
+                </div>
+                <div>
+                    <p><span class="bold">+2.4%</span></p>
+                    <p class="light">from last month</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
